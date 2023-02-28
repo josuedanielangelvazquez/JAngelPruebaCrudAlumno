@@ -1,0 +1,1048 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018E3D07F4E4FA759DA4C32B8B8B3A0F /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE18C345CED420E968082C553DA557A /* SwipeOptions.swift */; };
+		0548AE65FBFD564D54884DD843733295 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99A573D410DFD70C818A0CABE74766B /* SwipeTransitionLayout.swift */; };
+		179DA004EB2727CC8E47A857B9A7C8BE /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B12F815F02FC277752D84702FD618 /* SwipeController.swift */; };
+		17DDEF26F0BDCDC2CCBAA21FB3721A5A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B9965F66906D396A97806F7C35A7BD /* Extensions.swift */; };
+		18A002A8D4B4D57E8D66C5973F5EAD86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1B132D59BDD8541BD90F0E7FA2785EC9 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB44C13D91C4AA03E872A380DF9481 /* SwipeAction.swift */; };
+		206F240944E9F5D7E0741FADB0F7B66F /* SwipeCollectionViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511030B1ACC66D02DFF032E7F6B3F41A /* SwipeCollectionViewCell+Accessibility.swift */; };
+		27DDB328EA5A28F7FBE21AFC1B594C8E /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37757062654713386EB742BFE1509C40 /* SwipeTableViewCell+Accessibility.swift */; };
+		302D218976A9A55C13B861E9FF4090BB /* SwipeCellKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F40EC90551D5E2A1769FFBECDDD5D0D /* SwipeCellKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		311EFC1239B0C7C5480C02B4B85413B0 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC1B4A12BD5CB0CD0C348EFE9CF5DED /* SwipeExpansionStyle.swift */; };
+		3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A11883F905F2FA3AE8234FE78AC2588 /* SwipeCollectionViewCellDelegate.swift */; };
+		3C079DA84C29E9B0945996DB421C9053 /* Pods-JAngelPruebaCrudAlumnoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBB663F87D3EB1440BFCCDD55F6AD62 /* Pods-JAngelPruebaCrudAlumnoTests-dummy.m */; };
+		401114035204DAB5B465125E9B02E4BF /* Pods-JAngelPruebaCrudAlumnoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5003F365F36737A32AF07228F01EC9 /* Pods-JAngelPruebaCrudAlumnoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4910261A5A661EF013AFABBA998EFDE3 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19EAF0B69D81000D2AF7DEBE41E96DE /* SwipeCollectionViewCell+Display.swift */; };
+		4B275CF4EF68CFEBD7FF5C5EBCAF64EE /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C332EB59EF16677CB30DA30FEE8271 /* Swipeable.swift */; };
+		54AB29654E6FC7A1CD3DAC7C0EB9DA1F /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B884B78B164AB62A113031935002CB8 /* SwipeAnimator.swift */; };
+		55EC8A9DA519A3C73E41128EDE44E3F4 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597742AC28C6F782DF3216E0B16E63C7 /* SwipeTableViewCellDelegate.swift */; };
+		6176C0BE28782FE95B19BFCCDA6A0D8D /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBB74AE6140F721D1B52B84A31CDCC6 /* SwipeCollectionViewCell.swift */; };
+		650A8B0F3DB39401F5E7400FFF1E683A /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1EC5B81359321888FE6DE17F7F0024 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD8025A8F768B5908C24187949E1E2A /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55D566EE14CF3196537D335011E254F /* SwipeFeedback.swift */; };
+		90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EB2DBC629EF0C2A936AE5E1213578 /* SwipeTableViewCell+Display.swift */; };
+		9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D51BE8ED05EE13E766E495F2677D47 /* SwipeActionTransitioning.swift */; };
+		9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4EE6E554DD264CA738D74AD4BFFA1F /* SwipeExpanding.swift */; };
+		A180416E4EE5B6217B12900A99D30E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA83E26894A3DEC4A967CF2B5C35B8EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AB5E888B065545CE6198DBB442EB0045 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C6793C105BF4BBDF7BCAE216C51538 /* SwipeActionsView.swift */; };
+		B09B157B52AE1995CEB1689D00D2FBD8 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F17491CB8ABCE368096944D103FD55 /* SwipeTableViewCell.swift */; };
+		B9743A957DBE9A97ED5C6D2E45EC5480 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B7D2E25639C505C9304AFC77EFD11 /* SwipeActionButton.swift */; };
+		BF94EA8A35E14CA423DD0DEFE74DDB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C4E062883F3700D6E761F2D9A8FBB829 /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F576ABDE6B3A1FD533E6461E81730E /* SwipeAccessibilityCustomAction.swift */; };
+		DB7CAAFBFF3637480982269E0E111676 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F45559C458CFDAE0FC87CCA531DE73 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m */; };
+		E1946B5A38DEB54D7A6E32E6D7BAAB49 /* Pods-JAngelPruebaCrudAlumno-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E663EE3CAE07164341BB836430E92E /* Pods-JAngelPruebaCrudAlumno-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4F4338747840373C02BF2B6D77F07C /* Pods-JAngelPruebaCrudAlumno-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 057788E88CD8721D73261DF6BA82847D /* Pods-JAngelPruebaCrudAlumno-dummy.m */; };
+		F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBBEA415A355B593C7AADA75A1F405E /* SwipeCellKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F8AC627EB8A0A1D264D62229D52C550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
+			remoteInfo = SwipeCellKit;
+		};
+		F54380091116354688592D163D0905D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE44C23B82E6671E9E1541D06DE0E87;
+			remoteInfo = SwipeCellKit;
+		};
+		F7973CB8CB53B6B7D0AB00AC97008F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20C77B01B2FC1AAD84629C3D78F50A6;
+			remoteInfo = "Pods-JAngelPruebaCrudAlumno";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0255D18F96DE566DB9B79FD326165F1B /* Pods-JAngelPruebaCrudAlumno-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAngelPruebaCrudAlumno-acknowledgements.markdown"; sourceTree = "<group>"; };
+		028B12F815F02FC277752D84702FD618 /* SwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeController.swift; path = Source/SwipeController.swift; sourceTree = "<group>"; };
+		057788E88CD8721D73261DF6BA82847D /* Pods-JAngelPruebaCrudAlumno-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAngelPruebaCrudAlumno-dummy.m"; sourceTree = "<group>"; };
+		07E663EE3CAE07164341BB836430E92E /* Pods-JAngelPruebaCrudAlumno-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAngelPruebaCrudAlumno-umbrella.h"; sourceTree = "<group>"; };
+		0A11883F905F2FA3AE8234FE78AC2588 /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCellDelegate.swift; path = Source/SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		0A1EC5B81359321888FE6DE17F7F0024 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h"; sourceTree = "<group>"; };
+		0E468EA807B171EAB0F3071DC11C9548 /* SwipeCellKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.debug.xcconfig; sourceTree = "<group>"; };
+		0EBB74AE6140F721D1B52B84A31CDCC6 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeCollectionViewCell.swift; path = Source/SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AFE669CD27DCE3830FB8EB0BE114752 /* Pods-JAngelPruebaCrudAlumnoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumnoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1CE8A1215D4E50EB66DB68A5EE9F9C1F /* Pods-JAngelPruebaCrudAlumno.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAngelPruebaCrudAlumno.modulemap"; sourceTree = "<group>"; };
+		1F16B5A66AB5E5D1BCBFB664ED26218A /* Pods-JAngelPruebaCrudAlumnoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAngelPruebaCrudAlumnoTests"; path = Pods_JAngelPruebaCrudAlumnoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F40EC90551D5E2A1769FFBECDDD5D0D /* SwipeCellKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-umbrella.h"; sourceTree = "<group>"; };
+		2F6C6B8CF7B45E2BF599638C3024D9A5 /* Pods-JAngelPruebaCrudAlumno-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumno-acknowledgements.plist"; sourceTree = "<group>"; };
+		33C6793C105BF4BBDF7BCAE216C51538 /* SwipeActionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionsView.swift; path = Source/SwipeActionsView.swift; sourceTree = "<group>"; };
+		37757062654713386EB742BFE1509C40 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Accessibility.swift"; path = "Source/SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		38E12A73B9AAE0C8234AEC1123CEF214 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3E1B7D2E25639C505C9304AFC77EFD11 /* SwipeActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionButton.swift; path = Source/SwipeActionButton.swift; sourceTree = "<group>"; };
+		3E4EE6E554DD264CA738D74AD4BFFA1F /* SwipeExpanding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpanding.swift; path = Source/SwipeExpanding.swift; sourceTree = "<group>"; };
+		3FE18C345CED420E968082C553DA557A /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
+		43F6B98650CDF6CB4EC8C3B3F6753DEB /* Pods-JAngelPruebaCrudAlumno-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JAngelPruebaCrudAlumno-frameworks.sh"; sourceTree = "<group>"; };
+		50325621779C5BD3FEBB10C0C3929A69 /* SwipeCellKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCellKit.release.xcconfig; sourceTree = "<group>"; };
+		511030B1ACC66D02DFF032E7F6B3F41A /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Accessibility.swift"; path = "Source/SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		51DD059A7BFA0AEF3B4E899F08157EA0 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		597742AC28C6F782DF3216E0B16E63C7 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCellDelegate.swift; path = Source/SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		59F45559C458CFDAE0FC87CCA531DE73 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m"; sourceTree = "<group>"; };
+		60AD70F5CAA0302C7C020E977A54854A /* SwipeCellKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeCellKit.modulemap; sourceTree = "<group>"; };
+		63AB0CDA20338365B4E56E67BB428474 /* Pods-JAngelPruebaCrudAlumno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumno.debug.xcconfig"; sourceTree = "<group>"; };
+		665D37DEC7714BF351DD22A4D9ABD0D5 /* Pods-JAngelPruebaCrudAlumnoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumnoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		668EB2DBC629EF0C2A936AE5E1213578 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeTableViewCell+Display.swift"; path = "Source/SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		66F17491CB8ABCE368096944D103FD55 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		675288082A30EA7D8D7F111AB44D86A2 /* SwipeCellKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwipeCellKit-Info.plist"; sourceTree = "<group>"; };
+		6872010F021C8961687E9D7686D3B43A /* Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A45027F195055F674234A62C22EAEC4 /* Pods-JAngelPruebaCrudAlumno */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAngelPruebaCrudAlumno"; path = Pods_JAngelPruebaCrudAlumno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8B46CE1E2755CE0EEABCD6E38517E6 /* Pods-JAngelPruebaCrudAlumnoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAngelPruebaCrudAlumnoTests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7790888873662FBD8E1A152FEF63C162 /* Pods-JAngelPruebaCrudAlumno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumno.release.xcconfig"; sourceTree = "<group>"; };
+		7B884B78B164AB62A113031935002CB8 /* SwipeAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAnimator.swift; path = Source/SwipeAnimator.swift; sourceTree = "<group>"; };
+		87F576ABDE6B3A1FD533E6461E81730E /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAccessibilityCustomAction.swift; path = Source/SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
+		8E4E9BE4976DFF3DF40BD3E4D8300CBC /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.modulemap"; sourceTree = "<group>"; };
+		91C332EB59EF16677CB30DA30FEE8271 /* Swipeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swipeable.swift; path = Source/Swipeable.swift; sourceTree = "<group>"; };
+		92D51BE8ED05EE13E766E495F2677D47 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeActionTransitioning.swift; path = Source/SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeCellKit; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4C4570F05817B1FFBF908F15476CC9 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6B9965F66906D396A97806F7C35A7BD /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Source/Extensions.swift; sourceTree = "<group>"; };
+		BE2BE5EABE75AC7749C97192CCF4316E /* Pods-JAngelPruebaCrudAlumnoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumnoTests-Info.plist"; sourceTree = "<group>"; };
+		C9FCD45E6F1569C929690C0A8E5766DD /* Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA318B49D8DCB5825A8ABCD5249E1F63 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCC1B4A12BD5CB0CD0C348EFE9CF5DED /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeExpansionStyle.swift; path = Source/SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		CFAB44C13D91C4AA03E872A380DF9481 /* SwipeAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeAction.swift; path = Source/SwipeAction.swift; sourceTree = "<group>"; };
+		D19EAF0B69D81000D2AF7DEBE41E96DE /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwipeCollectionViewCell+Display.swift"; path = "Source/SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
+		DDBBEA415A355B593C7AADA75A1F405E /* SwipeCellKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCellKit-dummy.m"; sourceTree = "<group>"; };
+		E55D566EE14CF3196537D335011E254F /* SwipeFeedback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeFeedback.swift; path = Source/SwipeFeedback.swift; sourceTree = "<group>"; };
+		EF5003F365F36737A32AF07228F01EC9 /* Pods-JAngelPruebaCrudAlumnoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JAngelPruebaCrudAlumnoTests-umbrella.h"; sourceTree = "<group>"; };
+		F17ADE6C57BBF426D556AE7D6F8F88E5 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-Info.plist"; sourceTree = "<group>"; };
+		F30529E826C2CA81E58BDB6F7ECFAD1C /* SwipeCellKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCellKit-prefix.pch"; sourceTree = "<group>"; };
+		F49C6FDFBC15976F1F9FA7C83C40C0E6 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests"; path = Pods_JAngelPruebaCrudAlumno_JAngelPruebaCrudAlumnoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8706CFA8A018BB64B841A5272819D07 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F99A573D410DFD70C818A0CABE74766B /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeTransitionLayout.swift; path = Source/SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		FBFBB3005A5EE1A4F541E0F3B4E80B4F /* Pods-JAngelPruebaCrudAlumno-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JAngelPruebaCrudAlumno-Info.plist"; sourceTree = "<group>"; };
+		FCBB663F87D3EB1440BFCCDD55F6AD62 /* Pods-JAngelPruebaCrudAlumnoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JAngelPruebaCrudAlumnoTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA83549CAB32B28B78ED4A52522AF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA83E26894A3DEC4A967CF2B5C35B8EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C237D16DF1156746EA62E8F0C50F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF94EA8A35E14CA423DD0DEFE74DDB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865DAA4525AEC93515F0D2C555F1A588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A002A8D4B4D57E8D66C5973F5EAD86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0165981AD47A64DDE30DBDFFCCEB7C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A180416E4EE5B6217B12900A99D30E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187DAF8E4D02C28873D7AE8CF5775A44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3191BC3A94E81FC0801E8AB318236 /* Pods-JAngelPruebaCrudAlumno */,
+				35F343F9613F9D38E20E8B71E98DCC1F /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */,
+				4BA2A0600AFD4925EE7BEB28117A26AF /* Pods-JAngelPruebaCrudAlumnoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35F343F9613F9D38E20E8B71E98DCC1F /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E4E9BE4976DFF3DF40BD3E4D8300CBC /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.modulemap */,
+				9F4C4570F05817B1FFBF908F15476CC9 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.markdown */,
+				CA318B49D8DCB5825A8ABCD5249E1F63 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-acknowledgements.plist */,
+				59F45559C458CFDAE0FC87CCA531DE73 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m */,
+				38E12A73B9AAE0C8234AEC1123CEF214 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-frameworks.sh */,
+				F17ADE6C57BBF426D556AE7D6F8F88E5 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-Info.plist */,
+				0A1EC5B81359321888FE6DE17F7F0024 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h */,
+				51DD059A7BFA0AEF3B4E899F08157EA0 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.debug.xcconfig */,
+				F8706CFA8A018BB64B841A5272819D07 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.release.xcconfig */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests";
+			path = "Target Support Files/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests";
+			sourceTree = "<group>";
+		};
+		4130A68CD95CD6F6F4CA3A397F2CDA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A45027F195055F674234A62C22EAEC4 /* Pods-JAngelPruebaCrudAlumno */,
+				F49C6FDFBC15976F1F9FA7C83C40C0E6 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */,
+				1F16B5A66AB5E5D1BCBFB664ED26218A /* Pods-JAngelPruebaCrudAlumnoTests */,
+				9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA2A0600AFD4925EE7BEB28117A26AF /* Pods-JAngelPruebaCrudAlumnoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B46CE1E2755CE0EEABCD6E38517E6 /* Pods-JAngelPruebaCrudAlumnoTests.modulemap */,
+				C9FCD45E6F1569C929690C0A8E5766DD /* Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.markdown */,
+				6872010F021C8961687E9D7686D3B43A /* Pods-JAngelPruebaCrudAlumnoTests-acknowledgements.plist */,
+				FCBB663F87D3EB1440BFCCDD55F6AD62 /* Pods-JAngelPruebaCrudAlumnoTests-dummy.m */,
+				BE2BE5EABE75AC7749C97192CCF4316E /* Pods-JAngelPruebaCrudAlumnoTests-Info.plist */,
+				EF5003F365F36737A32AF07228F01EC9 /* Pods-JAngelPruebaCrudAlumnoTests-umbrella.h */,
+				665D37DEC7714BF351DD22A4D9ABD0D5 /* Pods-JAngelPruebaCrudAlumnoTests.debug.xcconfig */,
+				1AFE669CD27DCE3830FB8EB0BE114752 /* Pods-JAngelPruebaCrudAlumnoTests.release.xcconfig */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumnoTests";
+			path = "Target Support Files/Pods-JAngelPruebaCrudAlumnoTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF3B8FFA0175528B5760F5852AE163F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60AD70F5CAA0302C7C020E977A54854A /* SwipeCellKit.modulemap */,
+				DDBBEA415A355B593C7AADA75A1F405E /* SwipeCellKit-dummy.m */,
+				675288082A30EA7D8D7F111AB44D86A2 /* SwipeCellKit-Info.plist */,
+				F30529E826C2CA81E58BDB6F7ECFAD1C /* SwipeCellKit-prefix.pch */,
+				1F40EC90551D5E2A1769FFBECDDD5D0D /* SwipeCellKit-umbrella.h */,
+				0E468EA807B171EAB0F3071DC11C9548 /* SwipeCellKit.debug.xcconfig */,
+				50325621779C5BD3FEBB10C0C3929A69 /* SwipeCellKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeCellKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E214FA7A70A848A1DAAC7393BC4A9B5D /* Pods */,
+				4130A68CD95CD6F6F4CA3A397F2CDA0E /* Products */,
+				187DAF8E4D02C28873D7AE8CF5775A44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75FCB517ED0C69DD1CE15208C955672 /* SwipeCellKit */ = {
+			isa = PBXGroup;
+			children = (
+				A6B9965F66906D396A97806F7C35A7BD /* Extensions.swift */,
+				91C332EB59EF16677CB30DA30FEE8271 /* Swipeable.swift */,
+				87F576ABDE6B3A1FD533E6461E81730E /* SwipeAccessibilityCustomAction.swift */,
+				CFAB44C13D91C4AA03E872A380DF9481 /* SwipeAction.swift */,
+				3E1B7D2E25639C505C9304AFC77EFD11 /* SwipeActionButton.swift */,
+				33C6793C105BF4BBDF7BCAE216C51538 /* SwipeActionsView.swift */,
+				92D51BE8ED05EE13E766E495F2677D47 /* SwipeActionTransitioning.swift */,
+				7B884B78B164AB62A113031935002CB8 /* SwipeAnimator.swift */,
+				0EBB74AE6140F721D1B52B84A31CDCC6 /* SwipeCollectionViewCell.swift */,
+				511030B1ACC66D02DFF032E7F6B3F41A /* SwipeCollectionViewCell+Accessibility.swift */,
+				D19EAF0B69D81000D2AF7DEBE41E96DE /* SwipeCollectionViewCell+Display.swift */,
+				0A11883F905F2FA3AE8234FE78AC2588 /* SwipeCollectionViewCellDelegate.swift */,
+				028B12F815F02FC277752D84702FD618 /* SwipeController.swift */,
+				3E4EE6E554DD264CA738D74AD4BFFA1F /* SwipeExpanding.swift */,
+				CCC1B4A12BD5CB0CD0C348EFE9CF5DED /* SwipeExpansionStyle.swift */,
+				E55D566EE14CF3196537D335011E254F /* SwipeFeedback.swift */,
+				3FE18C345CED420E968082C553DA557A /* SwipeOptions.swift */,
+				66F17491CB8ABCE368096944D103FD55 /* SwipeTableViewCell.swift */,
+				37757062654713386EB742BFE1509C40 /* SwipeTableViewCell+Accessibility.swift */,
+				668EB2DBC629EF0C2A936AE5E1213578 /* SwipeTableViewCell+Display.swift */,
+				597742AC28C6F782DF3216E0B16E63C7 /* SwipeTableViewCellDelegate.swift */,
+				F99A573D410DFD70C818A0CABE74766B /* SwipeTransitionLayout.swift */,
+				AF3B8FFA0175528B5760F5852AE163F3 /* Support Files */,
+			);
+			name = SwipeCellKit;
+			path = SwipeCellKit;
+			sourceTree = "<group>";
+		};
+		E214FA7A70A848A1DAAC7393BC4A9B5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75FCB517ED0C69DD1CE15208C955672 /* SwipeCellKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9C3191BC3A94E81FC0801E8AB318236 /* Pods-JAngelPruebaCrudAlumno */ = {
+			isa = PBXGroup;
+			children = (
+				1CE8A1215D4E50EB66DB68A5EE9F9C1F /* Pods-JAngelPruebaCrudAlumno.modulemap */,
+				0255D18F96DE566DB9B79FD326165F1B /* Pods-JAngelPruebaCrudAlumno-acknowledgements.markdown */,
+				2F6C6B8CF7B45E2BF599638C3024D9A5 /* Pods-JAngelPruebaCrudAlumno-acknowledgements.plist */,
+				057788E88CD8721D73261DF6BA82847D /* Pods-JAngelPruebaCrudAlumno-dummy.m */,
+				43F6B98650CDF6CB4EC8C3B3F6753DEB /* Pods-JAngelPruebaCrudAlumno-frameworks.sh */,
+				FBFBB3005A5EE1A4F541E0F3B4E80B4F /* Pods-JAngelPruebaCrudAlumno-Info.plist */,
+				07E663EE3CAE07164341BB836430E92E /* Pods-JAngelPruebaCrudAlumno-umbrella.h */,
+				63AB0CDA20338365B4E56E67BB428474 /* Pods-JAngelPruebaCrudAlumno.debug.xcconfig */,
+				7790888873662FBD8E1A152FEF63C162 /* Pods-JAngelPruebaCrudAlumno.release.xcconfig */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumno";
+			path = "Target Support Files/Pods-JAngelPruebaCrudAlumno";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07F9ED9980691731246E74E693EAA580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D218976A9A55C13B861E9FF4090BB /* SwipeCellKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F211EA4B1BFAC2BDE760D80D9187D6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401114035204DAB5B465125E9B02E4BF /* Pods-JAngelPruebaCrudAlumnoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761D1246501D0E4BB9C4D434109856F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650A8B0F3DB39401F5E7400FFF1E683A /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C42E3C43BF3CF9407B43CA3853CB084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1946B5A38DEB54D7A6E32E6D7BAAB49 /* Pods-JAngelPruebaCrudAlumno-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62ECEC934388FAF475B486B410DA9642 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */;
+			buildPhases = (
+				07F9ED9980691731246E74E693EAA580 /* Headers */,
+				792A8233978A769BFDDDAD83325193C0 /* Sources */,
+				E0165981AD47A64DDE30DBDFFCCEB7C8 /* Frameworks */,
+				B10051DD1B4E76916EC97FBB066EB11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeCellKit;
+			productName = SwipeCellKit;
+			productReference = 9D443E759FE97A6C0CA5A3B5E4142EBA /* SwipeCellKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		485935D49CE1D4A80A576302247151C1 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B752A109F96FF631DB14DFC456F83F /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests" */;
+			buildPhases = (
+				761D1246501D0E4BB9C4D434109856F1 /* Headers */,
+				AE9FAB1AB635DB81C3ED79436B218C69 /* Sources */,
+				865DAA4525AEC93515F0D2C555F1A588 /* Frameworks */,
+				230D062DD728AF97F1B8B4E3B0012DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53AF1AD055D66583666D1DF5C695691 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests";
+			productName = Pods_JAngelPruebaCrudAlumno_JAngelPruebaCrudAlumnoUITests;
+			productReference = F49C6FDFBC15976F1F9FA7C83C40C0E6 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B20C77B01B2FC1AAD84629C3D78F50A6 /* Pods-JAngelPruebaCrudAlumno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2855F4472C7D9AC77F503AD8C45010E5 /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumno" */;
+			buildPhases = (
+				9C42E3C43BF3CF9407B43CA3853CB084 /* Headers */,
+				8D670E3CD3DB051236B167BF0BD15CF7 /* Sources */,
+				17C237D16DF1156746EA62E8F0C50F3E /* Frameworks */,
+				D2B01AC91D04F6C42385429BC13B35FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				203DFC0122B034DF529343EF7CE72667 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumno";
+			productName = Pods_JAngelPruebaCrudAlumno;
+			productReference = 6A45027F195055F674234A62C22EAEC4 /* Pods-JAngelPruebaCrudAlumno */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAA1AB52911C412B0A854272F1DB852F /* Pods-JAngelPruebaCrudAlumnoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AA5FEF8F41C3FEAF97EBFF86FD0A4B /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumnoTests" */;
+			buildPhases = (
+				3F211EA4B1BFAC2BDE760D80D9187D6E /* Headers */,
+				82503D00F15F7AD9B0FEADF6D1E2944C /* Sources */,
+				0EA83549CAB32B28B78ED4A52522AF20 /* Frameworks */,
+				49F5A654384A2331F37BDE94A0FAC629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DD006171835515E3354502C3013397 /* PBXTargetDependency */,
+			);
+			name = "Pods-JAngelPruebaCrudAlumnoTests";
+			productName = Pods_JAngelPruebaCrudAlumnoTests;
+			productReference = 1F16B5A66AB5E5D1BCBFB664ED26218A /* Pods-JAngelPruebaCrudAlumnoTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4130A68CD95CD6F6F4CA3A397F2CDA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20C77B01B2FC1AAD84629C3D78F50A6 /* Pods-JAngelPruebaCrudAlumno */,
+				485935D49CE1D4A80A576302247151C1 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests */,
+				BAA1AB52911C412B0A854272F1DB852F /* Pods-JAngelPruebaCrudAlumnoTests */,
+				1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		230D062DD728AF97F1B8B4E3B0012DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F5A654384A2331F37BDE94A0FAC629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10051DD1B4E76916EC97FBB066EB11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B01AC91D04F6C42385429BC13B35FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		792A8233978A769BFDDDAD83325193C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDEF26F0BDCDC2CCBAA21FB3721A5A /* Extensions.swift in Sources */,
+				4B275CF4EF68CFEBD7FF5C5EBCAF64EE /* Swipeable.swift in Sources */,
+				C4E062883F3700D6E761F2D9A8FBB829 /* SwipeAccessibilityCustomAction.swift in Sources */,
+				1B132D59BDD8541BD90F0E7FA2785EC9 /* SwipeAction.swift in Sources */,
+				B9743A957DBE9A97ED5C6D2E45EC5480 /* SwipeActionButton.swift in Sources */,
+				AB5E888B065545CE6198DBB442EB0045 /* SwipeActionsView.swift in Sources */,
+				9D1432BACBF3349C6B4BACE3EEDB1391 /* SwipeActionTransitioning.swift in Sources */,
+				54AB29654E6FC7A1CD3DAC7C0EB9DA1F /* SwipeAnimator.swift in Sources */,
+				F254264789A1EC31F8B4D1D31277A3A7 /* SwipeCellKit-dummy.m in Sources */,
+				6176C0BE28782FE95B19BFCCDA6A0D8D /* SwipeCollectionViewCell.swift in Sources */,
+				206F240944E9F5D7E0741FADB0F7B66F /* SwipeCollectionViewCell+Accessibility.swift in Sources */,
+				4910261A5A661EF013AFABBA998EFDE3 /* SwipeCollectionViewCell+Display.swift in Sources */,
+				3A0EFA6C47553E56008B8CE22EC206B6 /* SwipeCollectionViewCellDelegate.swift in Sources */,
+				179DA004EB2727CC8E47A857B9A7C8BE /* SwipeController.swift in Sources */,
+				9EFB9CE930EFCFF821A56868C99C8966 /* SwipeExpanding.swift in Sources */,
+				311EFC1239B0C7C5480C02B4B85413B0 /* SwipeExpansionStyle.swift in Sources */,
+				6CD8025A8F768B5908C24187949E1E2A /* SwipeFeedback.swift in Sources */,
+				018E3D07F4E4FA759DA4C32B8B8B3A0F /* SwipeOptions.swift in Sources */,
+				B09B157B52AE1995CEB1689D00D2FBD8 /* SwipeTableViewCell.swift in Sources */,
+				27DDB328EA5A28F7FBE21AFC1B594C8E /* SwipeTableViewCell+Accessibility.swift in Sources */,
+				90A282D559F6B602CC819EA557F422DF /* SwipeTableViewCell+Display.swift in Sources */,
+				55EC8A9DA519A3C73E41128EDE44E3F4 /* SwipeTableViewCellDelegate.swift in Sources */,
+				0548AE65FBFD564D54884DD843733295 /* SwipeTransitionLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82503D00F15F7AD9B0FEADF6D1E2944C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C079DA84C29E9B0945996DB421C9053 /* Pods-JAngelPruebaCrudAlumnoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D670E3CD3DB051236B167BF0BD15CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4F4338747840373C02BF2B6D77F07C /* Pods-JAngelPruebaCrudAlumno-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9FAB1AB635DB81C3ED79436B218C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CAAFBFF3637480982269E0E111676 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		203DFC0122B034DF529343EF7CE72667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
+			targetProxy = 6F8AC627EB8A0A1D264D62229D52C550 /* PBXContainerItemProxy */;
+		};
+		F53AF1AD055D66583666D1DF5C695691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeCellKit;
+			target = 1DE44C23B82E6671E9E1541D06DE0E87 /* SwipeCellKit */;
+			targetProxy = F54380091116354688592D163D0905D9 /* PBXContainerItemProxy */;
+		};
+		F9DD006171835515E3354502C3013397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JAngelPruebaCrudAlumno";
+			target = B20C77B01B2FC1AAD84629C3D78F50A6 /* Pods-JAngelPruebaCrudAlumno */;
+			targetProxy = F7973CB8CB53B6B7D0AB00AC97008F7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06ADCF7CBD7A58E8A2EEDEB5478F24E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFE669CD27DCE3830FB8EB0BE114752 /* Pods-JAngelPruebaCrudAlumnoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumnoTests/Pods-JAngelPruebaCrudAlumnoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumnoTests/Pods-JAngelPruebaCrudAlumnoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A7125DE1B14E1D1835702295B67B46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7790888873662FBD8E1A152FEF63C162 /* Pods-JAngelPruebaCrudAlumno.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno/Pods-JAngelPruebaCrudAlumno-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno/Pods-JAngelPruebaCrudAlumno.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B91707D1E915945E783FA1774E690D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AB0CDA20338365B4E56E67BB428474 /* Pods-JAngelPruebaCrudAlumno.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno/Pods-JAngelPruebaCrudAlumno-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno/Pods-JAngelPruebaCrudAlumno.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AC41ABEE64C623596DBC5766763AB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50325621779C5BD3FEBB10C0C3929A69 /* SwipeCellKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_MODULE_NAME = SwipeCellKit;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		37E91FA0E7975859CC5E2CDB0FBBCC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665D37DEC7714BF351DD22A4D9ABD0D5 /* Pods-JAngelPruebaCrudAlumnoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumnoTests/Pods-JAngelPruebaCrudAlumnoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumnoTests/Pods-JAngelPruebaCrudAlumnoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A90B48B00BD4D9BBE9CACA480AB60867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8706CFA8A018BB64B841A5272819D07 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B365E1CAEEB3DAE92CD63CCAF561CBEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E468EA807B171EAB0F3071DC11C9548 /* SwipeCellKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCellKit/SwipeCellKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeCellKit/SwipeCellKit.modulemap";
+				PRODUCT_MODULE_NAME = SwipeCellKit;
+				PRODUCT_NAME = SwipeCellKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7F662BE9077C11921D88B6ADA11C3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DD059A7BFA0AEF3B4E899F08157EA0 /* Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests/Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2855F4472C7D9AC77F503AD8C45010E5 /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B91707D1E915945E783FA1774E690D9 /* Debug */,
+				0A7125DE1B14E1D1835702295B67B46F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B752A109F96FF631DB14DFC456F83F /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumno-JAngelPruebaCrudAlumnoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F662BE9077C11921D88B6ADA11C3E2 /* Debug */,
+				A90B48B00BD4D9BBE9CACA480AB60867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62ECEC934388FAF475B486B410DA9642 /* Build configuration list for PBXNativeTarget "SwipeCellKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365E1CAEEB3DAE92CD63CCAF561CBEF /* Debug */,
+				1AC41ABEE64C623596DBC5766763AB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0AA5FEF8F41C3FEAF97EBFF86FD0A4B /* Build configuration list for PBXNativeTarget "Pods-JAngelPruebaCrudAlumnoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E91FA0E7975859CC5E2CDB0FBBCC0D /* Debug */,
+				06ADCF7CBD7A58E8A2EEDEB5478F24E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

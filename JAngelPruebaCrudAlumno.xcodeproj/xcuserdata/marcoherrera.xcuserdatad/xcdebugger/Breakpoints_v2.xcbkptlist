@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1867E46D-EB02-41D1-9F3C-E946DA60B67E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49C93AF7-52A3-44AC-B955-6A45100AA053"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/ViewModel/AlumnoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ParseJson(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "49C93AF7-52A3-44AC-B955-6A45100AA053 - 6bacf8ec515af9ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnoViewModel.ParseJson(data: Foundation.Data) -&gt; Swift.Optional&lt;JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;&gt;"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/ViewModel/AlumnoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "49C93AF7-52A3-44AC-B955-6A45100AA053 - 6bacf8ec515af98f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnoViewModel.ParseJson(data: Foundation.Data) -&gt; Swift.Optional&lt;JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;&gt;"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/ViewModel/AlumnoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E334E879-3CCB-4089-918F-601D44DD3170"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/AlumnosTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33405C09-C337-40BA-B68D-60A1FCC1A4E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Materias/MateriasTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41CD39BE-2555-4A40-AEBC-7301A208CCB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "EnviarAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41CD39BE-2555-4A40-AEBC-7301A208CCB8 - 150f02c06f7112d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnosViewController.EnviarAction(Any) -&gt; ()"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "2768">
+               </Location>
+               <Location
+                  uuid = "41CD39BE-2555-4A40-AEBC-7301A208CCB8 - 2ded8ccf93912231"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;) -&gt; () in JAngelPruebaCrudAlumno.AlumnosViewController.EnviarAction(Any) -&gt; ()"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DA6DE19-EE8E-4E35-80F1-E1EB7B54F91A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Materias/MateriasTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "MateriasTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAA76B28-ECBB-44EE-81FD-F0E8B5A03A9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/ViewModel/Materias/MateriasViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "GetById(IdMateria:Object:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12C3CF24-ABEB-42E2-98B2-72FA38D208C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/ViewModel/Materias/MateriasViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "getMaterias(ClousureMaterias:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4DAA9DB-AB44-4337-A99F-60BE8554306C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A52F302-FA19-473A-BB25-6B7361A21092"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/ViewModel/Alumnos/AlumnoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ParseJson(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7A52F302-FA19-473A-BB25-6B7361A21092 - 1999d5c3facba938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnoViewModel.ParseJson(data: Foundation.Data) -&gt; Swift.Optional&lt;JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;&gt;"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/ViewModel/Alumnos/AlumnoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "7A52F302-FA19-473A-BB25-6B7361A21092 - 1999d5c3facba919"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnoViewModel.ParseJson(data: Foundation.Data) -&gt; Swift.Optional&lt;JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;&gt;"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/ViewModel/Alumnos/AlumnoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B465A9A8-129A-4D7A-A735-11254831E8C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B465A9A8-129A-4D7A-A735-11254831E8C8 - 33a20a3ab5df048a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnosViewController.loadData() -&gt; ()"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "B465A9A8-129A-4D7A-A735-11254831E8C8 - 33a20a3ab5df048a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JAngelPruebaCrudAlumno.AlumnosViewController.loadData() -&gt; ()"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "B465A9A8-129A-4D7A-A735-11254831E8C8 - 174555cafe9d1f58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (JAngelPruebaCrudAlumno.Result&lt;JAngelPruebaCrudAlumno.Alumno&gt;) -&gt; () in JAngelPruebaCrudAlumno.AlumnosViewController.loadData() -&gt; ()"
+                  moduleName = "JAngelPruebaCrudAlumno"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacBookMB6/Documents/JosueDanielAngelVazquez/JAngelPruebaCrudAlumno/JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
