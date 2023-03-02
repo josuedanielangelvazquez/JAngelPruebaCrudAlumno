@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C303437D-B80B-43CA-B047-8A0EB4A90C3E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosTableViewController.swift"
@@ -17,6 +17,22 @@
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9918AED2-27D2-49A5-BB68-51A85D8C7062"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JAngelPruebaCrudAlumno/Controller/Alumnos/AlumnosTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "SearchaAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

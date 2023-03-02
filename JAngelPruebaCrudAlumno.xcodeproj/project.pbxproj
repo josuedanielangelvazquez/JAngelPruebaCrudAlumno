@@ -135,7 +135,6 @@
 				E0A46F97E32C62D7282343BD /* Pods-JAngelPruebaCrudAlumnoTests.debug.xcconfig */,
 				26ADC6DA628A0C9D31C08CCB /* Pods-JAngelPruebaCrudAlumnoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

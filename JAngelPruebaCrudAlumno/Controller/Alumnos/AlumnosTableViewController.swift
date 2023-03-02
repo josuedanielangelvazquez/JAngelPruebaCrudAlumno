@@ -69,6 +69,47 @@ class AlumnosTableViewController: UITableViewController {
         return cell
     }
     
+    @IBAction func SearchaAction(_ sender: Any) {
+        var searhc = UIAlertController(title: "¿?", message: "¿Ingresa el Id a buscar?", preferredStyle: .alert)
+        searhc.addTextField{(textfield : UITextField) in
+            textfield.placeholder = "Ingrese el Id"
+            
+        }
+        searhc.addAction(UIAlertAction(title: "Cancelar", style: .destructive))
+        searhc.addAction(UIAlertAction(title: "Buscar", style: .default){ action in
+            let arraytext = searhc.textFields
+            let text = arraytext![0]
+            let textString = String(text.text!)
+         
+            if Int(textString) != nil{
+                self.IdAlumno = Int(textString)!
+                print(self.IdAlumno)
+            }
+            else{
+                searhc.title = "Error"
+                searhc.message = "Ingrese un id valido"
+                
+            }         
+
+            self.alumnoviewmodel.GetByiD(IdAlumno: self.IdAlumno) { Validacion in
+                DispatchQueue.main.async {
+                    if Validacion.Object != nil{
+                        self.performSegue(withIdentifier: "UpdateSeguesAlumno", sender: nil)}
+                    else{
+                        searhc.title = "Error"
+                        searhc.message = "El Id que ingresaste no Existe"
+                        self.present(searhc, animated: true)
+                        
+                    }
+                    }
+                    
+                }
+            }
+            
+        )
+        self.present(searhc, animated: true)
+    }
+    
   /*  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         IdAlumno = alumnos[indexPath.row].IdAlumno
         seguesdet = "UpdateSeguesAlumno"
@@ -159,7 +200,7 @@ extension AlumnosTableViewController: SwipeTableViewCellDelegate{
          }*/
         
         
-        let  UpdateAction = SwipeAction(style: .destructive , title: "Update"){
+        let  UpdateAction = SwipeAction(style: .destructive , title: ""){
             action, indexPath in
             
             self.IdAlumno = self.alumnos[indexPath.row].IdAlumno
@@ -167,7 +208,12 @@ extension AlumnosTableViewController: SwipeTableViewCellDelegate{
             
             
         }
-        UpdateAction.image = UIImage(named: "Update")
+        var sizes = CGSize(width: 100.0, height: 100.0)
+        UpdateAction.image  = UIImage(named: "Update")
+        
+        
+        
+    
         UpdateAction.backgroundColor = UIColor(red: 0.07, green: 0.45, blue: 0.87, alpha: 1.00)
         return [UpdateAction]
         

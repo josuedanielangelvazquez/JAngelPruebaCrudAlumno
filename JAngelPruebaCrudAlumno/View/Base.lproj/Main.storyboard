@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1X3-29-ut8">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <tableViewController id="r61-Tl-0Ev" customClass="AlumnosTableViewController" customModule="JAngelPruebaCrudAlumno" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Ocd-MO-vKE">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="i83-TT-nfo">
-                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i83-TT-nfo" id="hWQ-lj-Apx">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -32,22 +32,40 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="POp-EC-lhD">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="3FV-zE-Vwt">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="q8e-Sd-HV6">
-                                <rect key="frame" x="288" y="5" width="86" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="person.fill.badge.plus" catalog="system">
-                                    <backgroundConfiguration key="background" cornerRadius="20">
-                                        <color key="backgroundColor" systemColor="linkColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="qPd-3o-WVM" kind="show" identifier="addSegues" id="cw5-nL-daz"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" id="3FV-zE-Vwt">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="q8e-Sd-HV6">
+                                    <rect key="frame" x="308" y="5" width="86" height="34.333333333333336"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="tintColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="person.fill.badge.plus" catalog="system">
+                                        <backgroundConfiguration key="background" cornerRadius="20">
+                                            <color key="backgroundColor" systemColor="linkColor"/>
+                                        </backgroundConfiguration>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <segue destination="qPd-3o-WVM" kind="show" identifier="addSegues" id="cw5-nL-daz"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="MCc-Rx-3Mk">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="RwY-zI-kNz">
+                                    <rect key="frame" x="265.66666666666669" y="5" width="34.333333333333314" height="34.333333333333336"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" cornerStyle="capsule">
+                                        <backgroundConfiguration key="background" strokeWidth="8" strokeOutset="9">
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </backgroundConfiguration>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="SearchaAction:" destination="r61-Tl-0Ev" eventType="touchUpInside" id="bH9-nb-aSd"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <segue destination="qPd-3o-WVM" kind="show" identifier="UpdateSeguesAlumno" id="bS2-Nw-4g5"/>
@@ -62,40 +80,45 @@
             <objects>
                 <viewController id="qPd-3o-WVM" customClass="AlumnosViewController" customModule="JAngelPruebaCrudAlumno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qcp-1e-3Rs">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="3qz-dj-mJO">
-                                <rect key="frame" x="35" y="228" width="320" height="453"/>
+                                <rect key="frame" x="35" y="225" width="344" height="508"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identificador" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-AD-n1T">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identificador" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5HF-AD-n1T">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="89"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-pw-u0z">
-                                        <rect key="frame" x="0.0" y="40" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V2n-pw-u0z">
+                                        <rect key="frame" x="0.0" y="95" width="344" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Paterno" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnY-Wh-ma9">
-                                        <rect key="frame" x="0.0" y="80" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Paterno" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnY-Wh-ma9">
+                                        <rect key="frame" x="0.0" y="135" width="344" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Materno" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k1X-gf-hLD">
-                                        <rect key="frame" x="0.0" y="120" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellido Materno" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k1X-gf-hLD">
+                                        <rect key="frame" x="0.0" y="175" width="344" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCB-F3-dB5">
-                                        <rect key="frame" x="0.0" y="160" width="320" height="216"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telefono" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="npp-Qe-yoj">
+                                        <rect key="frame" x="0.0" y="215" width="344" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <datePicker opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCB-F3-dB5">
+                                        <rect key="frame" x="0.0" y="255" width="344" height="216"/>
                                         <date key="date" timeIntervalSinceReferenceDate="698876484.25430202">
                                             <!--2023-02-23 20:21:24 +0000-->
                                         </date>
                                     </datePicker>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sSe-9C-8rP">
-                                        <rect key="frame" x="0.0" y="382" width="320" height="32"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sSe-9C-8rP">
+                                        <rect key="frame" x="0.0" y="477" width="344" height="32"/>
                                         <segments>
                                             <segment title="M"/>
                                             <segment title="F"/>
@@ -105,11 +128,6 @@
                                             <action selector="SegmentSexo:" destination="qPd-3o-WVM" eventType="valueChanged" id="C8T-qx-z9r"/>
                                         </connections>
                                     </segmentedControl>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telefono" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="npp-Qe-yoj">
-                                        <rect key="frame" x="0.0" y="419" width="320" height="34"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="453" id="YOX-WE-hCH"/>
@@ -117,14 +135,14 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="v6F-lH-Ycn">
-                                <rect key="frame" x="75" y="92" width="240" height="128"/>
+                                <rect key="frame" x="75" y="89" width="264" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="L44-NQ-HWo"/>
                                     <constraint firstAttribute="height" constant="129.33000000000001" id="kKY-c7-hCp"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihS-9C-iJA">
-                                <rect key="frame" x="24" y="705" width="342" height="46"/>
+                                <rect key="frame" x="24" y="757" width="366" height="46"/>
                                 <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="342" id="TGP-tU-rWV"/>
@@ -145,7 +163,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89s-w7-6x1">
-                                <rect key="frame" x="24" y="705" width="342" height="46"/>
+                                <rect key="frame" x="24" y="757" width="366" height="46"/>
                                 <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="342" id="Iqr-9l-Cm9"/>
@@ -185,7 +203,7 @@
                             <constraint firstItem="Mfh-7w-hQU" firstAttribute="bottom" secondItem="ihS-9C-iJA" secondAttribute="bottom" constant="10" id="zSN-Ls-zAm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="L9E-sP-U4Q"/>
+                    <navigationItem key="navigationItem" style="editor" id="L9E-sP-U4Q"/>
                     <connections>
                         <outlet property="Actulizarmod" destination="89s-w7-6x1" id="9cR-p8-Nbn"/>
                         <outlet property="Agregarmod" destination="ihS-9C-iJA" id="1rY-1v-KLC"/>
@@ -200,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DqH-Hj-PIM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2424.6153846153848" y="-441.46919431279616"/>
+            <point key="canvasLocation" x="2488" y="-441"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8fC-iP-Mrj">
@@ -209,7 +227,24 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5L5-lk-CzA">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="selectedImageTintColor" red="0.98431372640000003" green="0.98431372640000003" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <tabBarAppearance key="standardAppearance" backgroundEffect="prominent">
+                            <color key="backgroundColor" systemColor="linkColor"/>
+                            <tabBarItemAppearance key="stackedLayoutAppearance">
+                                <tabBarItemStateAppearance key="normal"/>
+                                <tabBarItemStateAppearance key="selected"/>
+                                <tabBarItemStateAppearance key="disabled"/>
+                                <tabBarItemStateAppearance key="focused"/>
+                            </tabBarItemAppearance>
+                            <tabBarItemAppearance key="inlineLayoutAppearance">
+                                <tabBarItemStateAppearance key="normal"/>
+                                <tabBarItemStateAppearance key="selected"/>
+                                <tabBarItemStateAppearance key="disabled"/>
+                                <tabBarItemStateAppearance key="focused"/>
+                            </tabBarItemAppearance>
+                            <color key="selectionIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tabBarAppearance>
                     </tabBar>
                     <connections>
                         <segue destination="bd7-rh-PlL" kind="relationship" relationship="viewControllers" id="0qQ-vX-pot"/>
@@ -225,15 +260,15 @@
             <objects>
                 <tableViewController id="l27-Lg-uSc" customClass="MateriasTableViewController" customModule="JAngelPruebaCrudAlumno" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Qp8-Oy-wCB">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="IfZ-Xd-hWr">
-                                <rect key="frame" x="0.0" y="50" width="390" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IfZ-Xd-hWr" id="Jgp-2u-bC3">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -244,22 +279,40 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="UAD-6M-21Z">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="qN1-0j-qYN">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nrw-9O-gJT">
-                                <rect key="frame" x="288" y="5" width="86" height="34.333333333333336"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.98431372640000003" green="0.98431372640000003" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="plus.rectangle.on.folder.fill" catalog="system">
-                                    <backgroundConfiguration key="background" cornerRadius="17">
-                                        <color key="backgroundColor" systemColor="linkColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="HXo-NA-qON" kind="show" identifier="AddSeguesMateria" id="ykh-Lx-3uL"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" id="qN1-0j-qYN">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="nrw-9O-gJT">
+                                    <rect key="frame" x="308" y="5" width="86" height="34.333333333333336"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="tintColor" red="0.98431372640000003" green="0.98431372640000003" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="plus.rectangle.on.folder.fill" catalog="system">
+                                        <backgroundConfiguration key="background" cornerRadius="17">
+                                            <color key="backgroundColor" systemColor="linkColor"/>
+                                        </backgroundConfiguration>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <segue destination="HXo-NA-qON" kind="show" identifier="AddSeguesMateria" id="ykh-Lx-3uL"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem tag="-1" id="cdY-lg-m1c">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="acp-JJ-mk5">
+                                    <rect key="frame" x="265.66666666666669" y="5" width="34.333333333333314" height="34.333333333333336"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system" cornerStyle="capsule">
+                                        <backgroundConfiguration key="background">
+                                            <color key="backgroundColor" red="0.031856667250394821" green="0.061342068016529083" blue="0.056957989931106567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </backgroundConfiguration>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="SearchButton:" destination="l27-Lg-uSc" eventType="touchUpInside" id="IFS-Nw-INT"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <segue destination="HXo-NA-qON" kind="show" identifier="UpdateSeguesMateria" id="55M-vM-6U7"/>
@@ -274,31 +327,31 @@
             <objects>
                 <viewController id="HXo-NA-qON" customClass="MateriaViewController" customModule="JAngelPruebaCrudAlumno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QmL-Oc-bus">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magazine.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4fW-RA-yI3">
-                                <rect key="frame" x="76" y="90.333333333333343" width="238" height="130.66666666666669"/>
+                                <rect key="frame" x="76" y="87.333333333333343" width="262" height="130.66666666666669"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="238" id="1gb-nr-O7a"/>
                                     <constraint firstAttribute="height" constant="129.33000000000001" id="zrN-0V-2u4"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="8sC-Ea-5bh">
-                                <rect key="frame" x="35" y="375" width="320" height="124"/>
+                                <rect key="frame" x="35" y="372" width="344" height="179"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identificador" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHm-Fq-QUw">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Identificador" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHm-Fq-QUw">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="89"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HTS-sP-N2k">
-                                        <rect key="frame" x="0.0" y="45" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HTS-sP-N2k">
+                                        <rect key="frame" x="0.0" y="100" width="344" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Costo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kQU-3d-wKy">
-                                        <rect key="frame" x="0.0" y="90" width="320" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Costo" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kQU-3d-wKy">
+                                        <rect key="frame" x="0.0" y="145" width="344" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -308,7 +361,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnA-lZ-5KK">
-                                <rect key="frame" x="24" y="705" width="342" height="46"/>
+                                <rect key="frame" x="24" y="757" width="342" height="46"/>
                                 <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="342" id="BHE-aa-txC"/>
@@ -329,7 +382,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31V-y5-6rD">
-                                <rect key="frame" x="24" y="705" width="342" height="46"/>
+                                <rect key="frame" x="24" y="757" width="366" height="46"/>
                                 <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="342" id="GlM-5I-7Nx"/>
@@ -369,7 +422,7 @@
                             <constraint firstItem="zB3-AC-9kk" firstAttribute="trailing" secondItem="4fW-RA-yI3" secondAttribute="trailing" constant="76" id="rs6-87-Jd9"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="3Us-8o-Egg"/>
+                    <navigationItem key="navigationItem" style="editor" id="3Us-8o-Egg"/>
                     <connections>
                         <outlet property="Actualizarmod" destination="31V-y5-6rD" id="mJr-mD-WsZ"/>
                         <outlet property="Agregarmod" destination="jnA-lZ-5KK" id="vwM-lN-l0X"/>
@@ -386,9 +439,11 @@
         <scene sceneID="YNz-39-wbe">
             <objects>
                 <navigationController id="ivx-cM-bod" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Materias" image="magazine.fill" catalog="system" selectedImage="magazine.fill" id="zBl-j8-tsM"/>
+                    <tabBarItem key="tabBarItem" title="Materias" image="magazine.fill" catalog="system" selectedImage="magazine.fill" id="zBl-j8-tsM">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jn1-fh-OWL">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -403,10 +458,12 @@
         <scene sceneID="wRv-p2-PUp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bd7-rh-PlL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Alumnos" image="person.3.sequence.fill" catalog="system" selectedImage="person.3.sequence.fill" id="PH3-TP-KgX"/>
+                    <tabBarItem key="tabBarItem" title="Alumnos" image="person.3.sequence.fill" catalog="system" selectedImage="person.3.sequence.fill" id="PH3-TP-KgX">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Flq-Bc-G23">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -425,6 +482,7 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="magazine.fill" catalog="system" width="110" height="128"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person.3.sequence.fill" catalog="system" width="128" height="59"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>

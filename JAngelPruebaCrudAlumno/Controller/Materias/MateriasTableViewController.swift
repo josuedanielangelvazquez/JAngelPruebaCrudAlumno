@@ -64,7 +64,48 @@ class MateriasTableViewController: UITableViewController {
         return cell
     }
     
-   /* override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+    @IBAction func SearchButton(_ sender: Any) {
+        var searhc = UIAlertController(title: "¿?", message: "¿Ingresa el Id a buscar?", preferredStyle: .alert)
+        searhc.addTextField{(textfield : UITextField) in
+            textfield.placeholder = "Ingrese el Id"
+            
+        }
+        searhc.addAction(UIAlertAction(title: "Cancelar", style: .destructive))
+        searhc.addAction(UIAlertAction(title: "Buscar", style: .default){ [self] action in
+            let arraytext = searhc.textFields
+            let text = arraytext![0]
+            let textString = String(text.text!)
+            
+            if Int(textString) != nil{
+                self.idMateria = Int(textString)!
+                print(idMateria)
+            }
+            else{
+                searhc.title = "Error"
+                searhc.message = "Ingrese un id valido"
+             
+            }
+
+            self.materiaviewmodel.GetById(IdMateria: self.idMateria) { Validacion in
+                DispatchQueue.main.async {
+                    if Validacion.Object != nil{
+                        self.performSegue(withIdentifier: "UpdateSeguesMateria", sender: nil)}
+                    else{
+                        searhc.title = "Error"
+                        searhc.message = "Ingrese un Id Valido"
+                        self.present(searhc, animated: true)
+                        
+                    }
+                    }
+                    
+                }
+            }
+            
+        )
+        self.present(searhc, animated: true)
+    }
+    /* override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.idMateria = materias[indexPath.row].IdMateria
         performSegue(withIdentifier: "UpdateSeguesMateria", sender: nil)
         
@@ -164,7 +205,7 @@ extension MateriasTableViewController: SwipeTableViewCellDelegate{
             
             
         }
-        UpdateAction.image = UIImage(named: "Update")
+        UpdateAction.image = UIImage(named: "square.and.pencil.circle.fill")
         UpdateAction.backgroundColor = UIColor(red: 0.07, green: 0.45, blue: 0.87, alpha: 1.00)
         return [UpdateAction]
         
